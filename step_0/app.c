@@ -16,10 +16,10 @@ int main(int argc, char* argv[]) {
             printf("Ninja Virtual Machine: invalid option -- '%s'\n", argv[1]);
             printf("Try '%s --help' for more information.\n", argv[0]);
         }
-    }
-    
-    printf("Ninja Virtual Machine started\n");
+    } else {
+        printf("Ninja Virtual Machine started\n");
 
-    printf("Ninja Virtual Machine stopped\n");
+        printf("Ninja Virtual Machine stopped\n");
+    }
     return 0;
 }
