@@ -34,15 +34,15 @@ void exe(unsigned IR) {
                 break;
 
         case DIV:a=pop();
-                b=pop();
-                if(a==0) {printf("Division by 0 is not possible");}
-                else{push(b/a);}
-                break;
+                 b=pop();
+                 if(a==0) {printf("Division by 0 is not possible");}
+                 else{push(b/a);}
+                 break;
 
         case MOD:a=pop();
-                b=pop();
-                push(b%a);
-                break;
+                 b=pop();
+                 push(b%a);
+                 break;
 
         case WRINT:
             break;

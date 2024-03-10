@@ -2,7 +2,7 @@
 #include "macrofiles.h"
 
 void programlistner(int i, unsigned ir) {
-    if(i>0 && i<10){
+    if(i>=0 && i<10){
         printf("00%d:    ",i);
      }
     if(i>9 && i<100){
