@@ -4,18 +4,26 @@
 int stack[CAPACITY];
 int top = -1;
 
-void push(int x){
-    if(top == CAPACITY - 1){
+void push(int x)
+{
+    if (top == CAPACITY - 1)
+    {
         return;
-    } else {
+    }
+    else
+    {
         stack[++top] = x;
     }
 }
 
-int pop(void){
-    if(top == -1){
+int pop(void)
+{
+    if (top == -1)
+    {
         return 0;
-    } else {
+    }
+    else
+    {
         return stack[top--];
     }
 }
